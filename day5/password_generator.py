@@ -10,10 +10,10 @@ num_of_letter = int(input("How many letters would you like in your password? "))
 num_of_number = int(input("How many numbers would you like in you password? "))
 num_of_symbol = int(input("How many symbols would you like in you password? "))
 
-total = num_of_letter + num_of_number + num_of_symbol
-list_of_letter = []
-list_of_number = []
-list_of_symbol = []
+# total = num_of_letter + num_of_number + num_of_symbol
+# list_of_letter = []
+# list_of_number = []
+# list_of_symbol = []
 
 # FULLY MANUAL
 # chosen_char = []
