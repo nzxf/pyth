@@ -6,15 +6,13 @@ alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
 
 def overflow(int):
     # BUGGY
-    if int < -25:
-        return (int * -1) % 26
-    elif int < 0:
-        return int - 25
+    # if int < -25:
+    #     return (int * -1) % 26
+    # elif int < 0:
+    #     return int - 25
     # Work
-    
-    elif int <= 25:
+    if int <= 25:
         return int
-    # BUGGY
     else:
         return int % 26
 
